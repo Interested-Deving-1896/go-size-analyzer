@@ -1,48 +1,29 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # go-size-analyzer
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/Zxilly/go-size-analyzer)](https://goreportcard.com/report/github.com/Zxilly/go-size-analyzer)
-[![Tests](https://github.com/Zxilly/go-size-analyzer/actions/workflows/built-tests.yml/badge.svg)](https://github.com/Zxilly/go-size-analyzer/actions/workflows/built-tests.yml)
-[![Codecov](https://img.shields.io/codecov/c/gh/Zxilly/go-size-analyzer)](https://codecov.io/github/Zxilly/go-size-analyzer)
-[![GitHub release](https://img.shields.io/github/v/release/Zxilly/go-size-analyzer)](https://github.com/Zxilly/go-size-analyzer/releases)
-[![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes?tab=readme-ov-file#-visualise-dependencies-size-in-compiled-binaries-with-go-size-analyzer)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Zxilly/go-size-analyzer/badge)](https://scorecard.dev/viewer/?uri=github.com/Zxilly/go-size-analyzer)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/go-size-analyzer)
 
-English | [简体中文](./README_zh_CN.md)
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-A simple tool to analyze the size of a Go compiled binary.
+## Architecture
 
-- [x] Cross-platform support for analyzing `ELF`, `Mach-O`, `PE` and `WebAssembly (experimental)` binary formats
-- [x] Detailed size breakdown by packages and sections
-- [x] Support multiple output formats: `text`, `json`, `html`, `svg`
-- [x] Interactive exploration via web interface and terminal UI
-- [x] Binary comparison with diff mode (supports `json` and `text` output)
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## Installation
+## Install
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/go-size-analyzer.svg)](https://repology.org/project/go-size-analyzer/versions)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-### [Download the latest binary](https://github.com/Zxilly/go-size-analyzer/releases)
-
-### MacOS / Linux via Homebrew:
-
-Using [Homebrew](https://brew.sh/)
-```
-brew install go-size-analyzer
-```
-
-### Windows:
-
-Using [scoop](https://scoop.sh/)
-```
-scoop install go-size-analyzer
-```
-
-### Go Install:
-```
-go install github.com/Zxilly/go-size-analyzer/cmd/gsa@latest
+```bash
+git clone https://github.com/Interested-Deving-1896/go-size-analyzer.git
+cd go-size-analyzer
 ```
 
 ## Usage
+
 
 ### Example
 
@@ -230,26 +211,50 @@ Imports analysis options
 >
 > The tool can work with stripped binaries, but it may lead to inaccurate results.
 
-## TODO
+## Configuration
 
-- [ ] Add more pattern for disassembling the binary
-- [x] Extract the information from the DWARF section
-- [x] Count the symbol size itself to package
-- [ ] Add other charts like flame graph, pie chart, etc.
-- [ ] Support C++/Rust symbol demangling in cgo
-- [x] Add a TUI mode for exploring details
-- [x] Compile to wasm, create a ui to analyze the binary in the browser
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-## Contribution
+## CI
 
-Any contribution is welcome, feel free to open an issue or a pull request.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-For development, see the [Development Guide](./DEVELOPMENT.md) for more details.
+## Mirror chain
 
-## LICENSE
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/go-size-analyzer`](https://github.com/Interested-Deving-1896/go-size-analyzer) and mirrored through:
 
-Published under the [AGPL-3.0](./LICENSE).
+```
+Interested-Deving-1896/go-size-analyzer  ──►  OpenOS-Project-OSP/go-size-analyzer  ──►  OpenOS-Project-Ecosystem-OOC/go-size-analyzer
+```
 
-### Supported by
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-[![JetBrains logo.](https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg)](https://jb.gg/OpenSourceSupport)
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
